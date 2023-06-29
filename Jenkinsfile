@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
 				echo "Checkout"
-				//git branch: 'main', url: 'https://github.com/GitHubUrbanoReyser/jenkins_ci.git'
+				//git branch: 'main', url: 'https://github.com/urbanoreyser/jenkins_ci.git'
 				sh 'ls -l'
             }
         }
